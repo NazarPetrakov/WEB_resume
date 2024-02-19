@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+#wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+aside {
+  float: left;
+  width: 350px;
+  height: 1000px;
+  background-color: #e0ebfe;
+  position: relative;
+}
+aside img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 25px;
+}
+aside .text-block {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+aside .container {
+  margin-top: 350px;
+  padding: 20px 0 0 40px;
+}
+section {
+  margin-left: 380px;
+  padding-bottom: 50px;
+  height: 1000px;
+  background-color: white;
+  border: 1px solid black;
+}
